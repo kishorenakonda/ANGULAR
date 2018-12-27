@@ -3,6 +3,8 @@
 // $background-light: #9575cd;
 $background-pale: #d1c4e9;
 
+// @import '~src/styles';
+
 @mixin zero-margin($pad-up-down, $pad-left-right) {
   margin: 0px auto;
   padding: $pad-up-down $pad-left-right;

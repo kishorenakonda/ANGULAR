@@ -2,6 +2,7 @@
 // $background-dark: #512da8;
 // $background-pale: #d1c4e9;
 $background-light: #9575cd;
+$background-moredark: #4527a0;
 
 @mixin zero-margin($pad-up-down, $pad-left-right) {
   margin: 0px auto;
@@ -13,4 +14,12 @@ $background-light: #9575cd;
   background: $background-light;
   color: floralwhite;
   min-height: 150px;
+}
+
+.active {
+  background: $background-moredark;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
