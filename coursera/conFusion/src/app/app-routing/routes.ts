@@ -31,5 +31,9 @@ export const routes: Routes = [
     {
         path: 'dishdetail',
         component: DishdetailComponent
+    },
+    {
+        path: 'dishdetail/:id',
+        component: DishdetailComponent
     }
 ]
