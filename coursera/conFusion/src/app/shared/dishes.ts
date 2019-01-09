@@ -127,7 +127,7 @@ export const DISHES: Dish[] = [{
     ]
 },
 {
-    id: '3',
+    id:'3',
     name: 'ElaiCheese Cake',
     image: '/assets/images/elaicheesecake.png',
     category: 'dessert',
